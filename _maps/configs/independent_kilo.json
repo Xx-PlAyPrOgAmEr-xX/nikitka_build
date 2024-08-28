@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Kilo-class Mining Ship",
+	"description": "The Kilo-class is a very old and miniscule pattern of mining ship, produced in vast numbers over the centuries and commonly found in scrapyards or forgotten in storage. Most examples on the Frontier have been restored by Miskilamo Spacefaring using parts from other nonfunctional Kilos, producing a ship that is as inexpensive as it is cramped and unreliable. The low cost and ease of repair or replacement nevertheless make the Kilo very popular among budget-minded captains.",
+	"tags": [
+		"Mining"
+	],
+	"prefix": "SV",
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"NATURAL"
+	],
+	"map_short_name": "Kilo-class",
+	"starting_funds": 3500,
+	"map_path": "_maps/shuttles/independent/independent_kilo.dmm",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/independent/captain/cheap",
+			"officer": true,
+			"slots": 1
+		},
+		"Asteroid Miner": {
+			"outfit": "/datum/outfit/job/independent/miner/hazard",
+			"slots": 1
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 1
+		},
+		"Deckhand": {
+			"outfit": "/datum/outfit/job/independent/assistant",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
