@@ -608,15 +608,24 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	force = 50
 	throwforce = 69
 	attack_verb = list("ебанул", "хуйнул")
+	hitsound = 'sound/weapons/russkokitayskiyslovar.ogg'
 	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT * 3.5)
 	w_class = WEIGHT_CLASS_HUGE
 
-/obj/item/melee/baseball_bat/russkokitayskiyslovar/attack(mob/living/target, mob/living/user)
-	. = ..()
-	playsound(get_turf(src), 'sound/weapons/russkokitayskiyslovar.ogg', 100, TRUE)
-
-
-
+/obj/item/melee/baseball_bat/stanislavshishkin
+	name = "Клинок рассекающий дерьмодемонов"
+	desc = "Секретный продукт СССР"
+	icon = 'icons/obj/items_and_weapons.dmi'
+	icon_state = "stanislavshishkin"
+	item_state = "stanislavshishkin"
+	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
+	force = 50
+	throwforce = 69
+	attack_verb = list("орально наказал", "анально пронзил")
+	hitsound = 'sound/items/bikehorn.ogg'
+	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT * 3.5)
+	w_class = WEIGHT_CLASS_HUGE
 
 /obj/item/melee/flyswatter
 	name = "flyswatter"
