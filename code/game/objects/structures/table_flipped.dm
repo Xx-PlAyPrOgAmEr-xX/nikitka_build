@@ -1,6 +1,6 @@
 /obj/structure/flippedtable
-	name = "flipped table"
-	desc = "A flipped table."
+	name = "перевернутый стол"
+	desc = "перевернутый стол."
 	icon = 'icons/obj/flipped_tables.dmi'
 	icon_state = "table"
 	anchored = TRUE

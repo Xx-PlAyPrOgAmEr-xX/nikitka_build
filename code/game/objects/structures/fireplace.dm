@@ -3,8 +3,8 @@
 #define MAXIMUM_BURN_TIMER 3000
 
 /obj/structure/fireplace
-	name = "fireplace"
-	desc = "A large stone brick fireplace."
+	name = "камин"
+	desc = "Большой камин из камня и кирпича."
 	icon = 'icons/obj/fireplace.dmi'
 	icon_state = "fireplace"
 	density = FALSE
