@@ -16,8 +16,8 @@ effective or pretty fucking useless.
 */
 
 /obj/item/batterer
-	name = "mind batterer"
-	desc = "A strange device with twin antennas."
+	name = "разрушитель разума"
+	desc = "Странное устройство с двумя антеннами."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "batterer"
 	throwforce = 5

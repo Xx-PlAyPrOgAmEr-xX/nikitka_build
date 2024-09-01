@@ -1,6 +1,6 @@
 /obj/item/implanter
-	name = "implanter"
-	desc = "A sterile automatic implant injector."
+	name = "Имплантер"
+	desc = "Автоматический установщик имплантов."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "implanter0"
 	item_state = "syringe_0"

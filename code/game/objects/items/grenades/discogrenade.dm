@@ -7,8 +7,8 @@
 //////////////////////
 
 /obj/item/grenade/discogrenade
-	name = "Ethereal Disco Grenade"
-	desc = "An unethical micro-party that will make all non-Ethereal beings dance to its beat!"
+	name = "Воздушная диско-граната"
+	desc = "Неэтичная мини-вечеринка, которая заставит всех неэфирных существ танцевать под ее ритм!"
 	icon_state = "disco"
 	item_state = "flashbang"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'

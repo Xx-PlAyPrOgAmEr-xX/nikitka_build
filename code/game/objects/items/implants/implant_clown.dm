@@ -1,5 +1,5 @@
 /obj/item/implant/sad_trombone
-	name = "sad trombone implant"
+	name = "имплант грустного трамбона"
 	activated = 0
 
 /obj/item/implant/sad_trombone/get_data()

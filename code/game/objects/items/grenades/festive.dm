@@ -1,8 +1,8 @@
 //~*~*~*~*SPARKLER*~*~*~*~*~*~
 
 /obj/item/sparkler
-	name = "sparkler"
-	desc = "A little stick coated with metal power and barium nitrate, burns with a pleasing sparkle."
+	name = "бенгальский огонь"
+	desc = "Маленькая палочка, покрытая металлическим порошком и нитратом бария, горит приятным блеском."
 	icon = 'icons/obj/holiday_misc.dmi'
 	icon_state = "sparkler"
 	w_class = WEIGHT_CLASS_TINY

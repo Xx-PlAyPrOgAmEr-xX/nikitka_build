@@ -1,6 +1,6 @@
 /obj/item/forcefield_projector
-	name = "forcefield projector"
-	desc = "An experimental device that can create several forcefields at a distance."
+	name = "проектор силового поля"
+	desc = "Экспериментальное устройство, способное создавать несколько силовых полей на расстоянии."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "signmaker_forcefield"
 	slot_flags = ITEM_SLOT_BELT

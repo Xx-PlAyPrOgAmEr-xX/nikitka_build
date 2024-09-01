@@ -10,8 +10,8 @@
 
 
 /obj/item/melee/chainofcommand
-	name = "chain of command"
-	desc = "A tool used by great men to placate the frothing masses."
+	name = "порядок подчинения"
+	desc = "Инструмент, используемый великими людьми для умиротворения взбунтовавшихся масс."
 	icon_state = "chain"
 	item_state = "chain"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
@@ -26,8 +26,8 @@
 	custom_materials = list(/datum/material/iron = 1000)
 
 /obj/item/melee/synthetic_arm_blade
-	name = "synthetic arm blade"
-	desc = "A grotesque blade that on closer inspection seems to be made out of synthetic flesh, it still feels like it would hurt very badly as a weapon."
+	name = "синтетическое лезвие для рук"
+	desc = "Гротескный клинок, который при ближайшем рассмотрении кажется сделанным из синтетической плоти, все равно кажется, что в качестве оружия он причинял бы очень сильную боль."
 	icon = 'icons/obj/changeling_items.dmi'
 	icon_state = "arm_blade"
 	item_state = "arm_blade"
@@ -45,8 +45,8 @@
 	AddComponent(/datum/component/butchering, 60, 80) //very imprecise
 
 /obj/item/melee/sabre
-	name = "officer's sabre"
-	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease."
+	name = "офицерская сабля"
+	desc = "Это элегантное оружие с мономолекулярным лезвием, способным с легкостью разрезать плоть и кости."
 	icon_state = "sabre"
 	item_state = "sabre"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
@@ -80,32 +80,32 @@
 		playsound(B, 'sound/items/sheath.ogg', 25, TRUE)
 
 /obj/item/melee/sabre/solgov
-	name = "solarian sabre"
-	desc = "A refined ceremonial blade often given to soldiers and high ranking officials of SolGov."
+	name = "Солгова клинок"
+	desc = "Изысканный церемониальный клинок, который часто вручают солдатам и высокопоставленным чиновникам Солгова."
 	icon_state = "sabresolgov"
 	item_state = "sabresolgov"
 
 /obj/item/melee/sabre/suns
-	name = "SUNS sabre"
-	desc = "A blade of Solarian origin given to SUNS followers."
+	name = "сабля солнца"
+	desc = "Клинок солярианского происхождения, данный последователям СОЛНЦА."
 	icon_state = "suns-sabre"
 	item_state = "suns-sabre"
 
 /obj/item/melee/sabre/suns/captain
-	name = "SUNS captain sabre"
-	desc = "An elegant blade awarded to SUNS captains. Despite its higher craftmanship, it appears to be just as effective as a normal sabre."
+	name = "Сабля капитана солнца"
+	desc = "Элегантный клинок, которым награждаются капитаны SUNS. Несмотря на более высокое качество изготовления, он не уступает по эффективности обычной сабле."
 	icon_state = "suns-capsabre"
 	item_state = "suns-capsabre"
 
 /obj/item/melee/sabre/suns/cmo
-	name = "SUNS stick sabre"
-	desc = "A thin blade used by SUNS medical instructors."
+	name = "Сабля из солнечной палочки"
+	desc = "Тонкое лезвие, которым пользуются медицинские инструкторы SUNS."
 	icon_state = "suns-swordstick"
 	item_state = "suns-swordstick"
 
 /obj/item/melee/sabre/suns/telescopic
-	name = "telescopic sabre"
-	desc = "A telescopic and retractable blade given to SUNS peacekeepers for easy concealment and carry. It's design makes it slightly less effective than normal sabres sadly, however it is still excelent at piercing armor."
+	name = "Телескопическая сабля"
+	desc = "Телескопический и убирающийся клинок, подаренный миротворцам SUNS для удобства ношения. К сожалению, его конструкция делает его несколько менее эффективным, чем обычные сабли, однако он по-прежнему отлично пробивает броню."
 	icon_state = "suns-tsword"
 	item_state = "suns-tsword"
 	force = 0
@@ -165,8 +165,8 @@
 	add_fingerprint(user)
 
 /obj/item/melee/beesword
-	name = "The Stinger"
-	desc = "Taken from a giant bee and folded over one thousand times in pure honey. Can sting through anything."
+	name = "Жало"
+	desc = "Получен от гигантской пчелы и более тысячи раз завернут в чистый мед. Может ужалить через что угодно."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "beesword"
 	item_state = "stinger"
@@ -192,8 +192,8 @@
 		H.reagents.add_reagent(/datum/reagent/toxin, 4)
 
 /obj/item/melee/classic_baton
-	name = "police baton"
-	desc = "A wooden truncheon for beating criminal scum."
+	name = "Полицеская дубинка"
+	desc = "Деревянная дубинка для избиения уголовных подонков."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "classic_baton"
 	item_state = "classic_baton"
@@ -341,15 +341,15 @@
 				to_chat(user, wait_desc)
 
 /obj/item/conversion_kit
-	name = "conversion kit"
-	desc = "A strange box containing wood working tools and an instruction paper to turn stun batons into something else."
+	name = "комплект для переоборудования"
+	desc = "Странная коробка с инструментами для обработки дерева и инструкцией по превращению электрошоковых дубинок во что-то другое."
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "uk"
 	custom_price = 450
 
 /obj/item/melee/classic_baton/telescopic
-	name = "telescopic baton"
-	desc = "A compact yet robust personal defense weapon. Can be concealed when folded."
+	name = "телескопическая дубинка"
+	desc = "Компактное, но надежное оружие личной защиты. В сложенном виде его можно спрятать."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "telebaton_0"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
@@ -393,8 +393,8 @@
 	add_fingerprint(user)
 
 /obj/item/melee/classic_baton/telescopic/contractor_baton
-	name = "contractor baton"
-	desc = "A compact, specialised baton assigned to Syndicate contractors. Applies light electrical shocks to targets."
+	name = "дубинка контрактора"
+	desc = "Компактная специализированная дубинка, предназначенная для подрядчиков Синдиката. Наносит легкий удар электрическим током по мишеням."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "contractor_baton_0"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
@@ -426,8 +426,8 @@
 	target.stuttering += 20
 
 /obj/item/melee/supermatter_sword
-	name = "supermatter sword"
-	desc = "In a universe full of bad ideas, this might just be the worst."
+	name = "меч суперматерии"
+	desc = "Во вселенной, полной плохих идей, это может быть просто худшим."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "supermatter_sword"
 	item_state = "supermatter_sword"
@@ -519,8 +519,8 @@
 	return FALSE
 
 /obj/item/melee/curator_whip
-	name = "curator's whip"
-	desc = "Somewhat eccentric and outdated, it still stings like hell to be hit by."
+	name = "хлыст куратора"
+	desc = "Используется для кражи стан дубинок у сб."
 	icon_state = "whip"
 	item_state = "chain"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
@@ -696,7 +696,7 @@
 	return ..()
 
 /obj/item/kitchen/knife/letter_opener
-	name = "letter opener"
+	name = "нож для вскрытия писем"
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "letter_opener"
 	desc = "A military combat utility survival knife."
@@ -708,8 +708,8 @@
 						"Corporate" = "letter_opener_a"
 						)
 /obj/item/melee/weebstick
-	name = "Weeb Stick"
-	desc = "Glorious nippon steel, folded 1000 times."
+	name = "Крошечная палочка"
+	desc = "Великолепная японская сталь, сложенная в 1000 раз."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "weeb_blade"
 	item_state = "weeb_blade"

@@ -1,5 +1,5 @@
 /obj/item/chameleon
-	name = "chameleon projector"
+	name = "Хамелеонский проектор"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "shield0"
 	flags_1 = CONDUCT_1

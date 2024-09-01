@@ -1,6 +1,6 @@
 /obj/item/attachment/bayonet
-	name = "bayonet"
-	desc = "Stabby-Stabby"
+	name = "Штык"
+	desc = "Тык-тык"
 	icon_state = "bayonet"
 	force = 15
 	throwforce = 10

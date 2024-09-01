@@ -1,6 +1,6 @@
 /obj/item/grenade/chem_grenade
-	name = "chemical grenade"
-	desc = "A custom made grenade."
+	name = "химическая граната"
+	desc = "Аллах велик."
 	icon_state = "chemg"
 	item_state = "flashbang"
 	w_class = WEIGHT_CLASS_SMALL

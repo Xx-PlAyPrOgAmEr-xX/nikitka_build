@@ -1,6 +1,6 @@
 /obj/item/megaphone
-	name = "megaphone"
-	desc = "A device used to project your voice. Loudly."
+	name = "мегафон"
+	desc = "Устройство, используемое для передачи вашего голоса. Громко."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "megaphone"
 	item_state = "megaphone"

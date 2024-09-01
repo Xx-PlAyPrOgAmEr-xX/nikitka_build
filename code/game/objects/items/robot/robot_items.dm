@@ -5,7 +5,7 @@
 	icon = 'icons/mob/robot_items.dmi'
 
 /obj/item/borg/stun
-	name = "electrically-charged arm"
+	name = "электрически заряженный рычаг"
 	icon_state = "elecarm"
 	var/charge_cost = 30
 
@@ -32,7 +32,7 @@
 	log_combat(user, M, "stunned", src, "(INTENT: [uppertext(user.a_intent)])")
 
 /obj/item/borg/cyborghug
-	name = "hugging module"
+	name = "обнимающий модуль"
 	icon_state = "hugmodule"
 	desc = "For when a someone really needs a hug."
 	var/mode = 0 //0 = Hugs 1 = "Hug" 2 = Shock 3 = CRUSH
@@ -337,8 +337,8 @@
 #define DISPENSE_ICECREAM_MODE 4
 
 /obj/item/borg/lollipop
-	name = "treat fabricator"
-	desc = "Reward humans with various treats. Toggle in-module to switch between dispensing and high velocity ejection modes."
+	name = "производитель лакомств"
+	desc = "Поощряйте людей различными лакомствами. Переключите встроенный модуль для переключения между режимами раздачи и высокоскоростного выброса.."
 	icon_state = "lollipop"
 	var/candy = 30
 	var/candymax = 30
@@ -486,15 +486,15 @@
 #undef DISPENSE_ICECREAM_MODE
 
 /obj/item/ammo_casing/caseless/gumball
-	name = "Gumball"
-	desc = "Why are you seeing this?!"
+	name = "жувачка"
+	desc = "Почему ты это видишь?!"
 	projectile_type = /obj/projectile/bullet/reusable/gumball
 	click_cooldown_override = 2
 
 
 /obj/projectile/bullet/reusable/gumball
-	name = "gumball"
-	desc = "Oh noes! A fast-moving gumball!"
+	name = "жевательный шарик"
+	desc = "О, нет! Быстро движущийся шарик жвачки!"
 	icon_state = "gumball"
 	ammo_type = /obj/item/reagent_containers/food/snacks/gumball/cyborg
 	nodamage = TRUE
@@ -507,14 +507,14 @@
 		dropped = TRUE
 
 /obj/item/ammo_casing/caseless/lollipop	//NEEDS RANDOMIZED COLOR LOGIC.
-	name = "Lollipop"
-	desc = "Why are you seeing this?!"
+	name = "Чупачупс"
+	desc = "Почему ты видишь это??"
 	projectile_type = /obj/projectile/bullet/reusable/lollipop
 	click_cooldown_override = 2
 
 /obj/projectile/bullet/reusable/lollipop
-	name = "lollipop"
-	desc = "Oh noes! A fast-moving lollipop!"
+	name = "леденец"
+	desc = "О, нет! Быстро движущийся леденец!"
 	icon_state = "lollipop_1"
 	ammo_type = /obj/item/reagent_containers/food/snacks/chewable/lollipop/cyborg
 	var/color2 = rgb(0, 0, 0)

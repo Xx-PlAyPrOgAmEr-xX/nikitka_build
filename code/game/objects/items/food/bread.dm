@@ -1,7 +1,7 @@
 
 /obj/item/food/bread
-	name = "bread?"
-	desc = "This shouldn't exist, report to codermonkeys"
+	name = "Хлеб?"
+	desc = "Этого не должно быть, сообщите об этом codemonkeys"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	max_volume = 80
 	tastes = list("bread" = 10)

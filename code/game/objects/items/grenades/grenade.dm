@@ -1,6 +1,6 @@
 /obj/item/grenade
-	name = "grenade"
-	desc = "It has an adjustable timer."
+	name = "граната"
+	desc = "она имеет таймер.."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "grenade"

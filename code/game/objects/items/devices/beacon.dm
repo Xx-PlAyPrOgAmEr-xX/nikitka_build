@@ -1,6 +1,6 @@
 /obj/item/beacon
-	name = "\improper tracking beacon"
-	desc = "A beacon used by a teleporter."
+	name = "Телепортационный маяк"
+	desc = "Маяк, используемый телепортом."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "beacon"
 	item_state = "beacon"

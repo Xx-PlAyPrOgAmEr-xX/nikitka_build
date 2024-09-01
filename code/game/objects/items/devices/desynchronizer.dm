@@ -1,6 +1,6 @@
 /obj/item/desynchronizer
-	name = "desynchronizer"
-	desc = "An experimental device that can temporarily desynchronize the user from spacetime, effectively making them disappear while it's active."
+	name = "десинхронизатор"
+	desc = "Экспериментальное устройство, которое может временно рассинхронизировать пользователя с пространством-временем, фактически заставляя его исчезать, пока оно активно.."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "desynchronizer"
 	item_state = "electronic"

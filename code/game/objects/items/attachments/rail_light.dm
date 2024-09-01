@@ -1,6 +1,6 @@
 /obj/item/attachment/rail_light
-	name = "rail light"
-	desc = "A flashlight made to be mounted on a firearm."
+	name = "Рельсовый фонарик"
+	desc = "Фонарик, предназначенный для установки на огнестрельное оружие."
 	icon_state = "raillight"
 	light_color = COLOR_LIGHT_ORANGE
 	light_system = MOVABLE_LIGHT_DIRECTIONAL

@@ -1,6 +1,6 @@
 /obj/structure/fireaxecabinet
-	name = "fire axe cabinet"
-	desc = "There is a small label that reads \"For Emergency use only\" along with details for safe use of the axe. As if."
+	name = "Шкаф для пожарных топоров"
+	desc = "Имеется небольшая этикетка с надписью \"Только для экстренного использования\", а также инструкции по безопасному использованию топора."
 	icon = 'icons/obj/wallmounts.dmi'
 	icon_state = "fireaxe"
 	anchored = TRUE

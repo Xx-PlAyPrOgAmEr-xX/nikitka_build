@@ -1,6 +1,6 @@
 /obj/item/pressure_plate
-	name = "pressure plate"
-	desc = "An electronic device that triggers when stepped on. Ctrl-Click to toggle the pressure plate off and on."
+	name = "нажимная пластина"
+	desc = "Электронное устройство, которое срабатывает при нажатии на него. Нажмите Ctrl, чтобы выключать и включать прижимную пластину."
 	icon = 'icons/obj/puzzle_small.dmi'
 	icon_state = "pressureplate"
 	layer = LOW_OBJ_LAYER

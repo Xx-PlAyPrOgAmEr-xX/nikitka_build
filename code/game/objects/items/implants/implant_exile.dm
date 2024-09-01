@@ -2,8 +2,8 @@
 //This will allow security to exile badguys/for badguys to exile their kill targets
 
 /obj/item/implant/exile
-	name = "exile implant"
-	desc = "Prevents you from returning from away missions."
+	name = "Имплант для изгнания "
+	desc = "не позволяет твоему врагу вернуться на станцию."
 	activated = 0
 
 /obj/item/implant/exile/get_data()

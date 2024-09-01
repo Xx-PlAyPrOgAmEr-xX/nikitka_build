@@ -1,6 +1,6 @@
 /obj/item/reverse_bear_trap
-	name = "reverse bear trap"
-	desc = "A horrifying set of shut metal jaws, rigged to a kitchen timer and secured by padlock to a head-mounted clamp. To apply, hit someone with it."
+	name = "обратная медвежья ловушка"
+	desc = "Устрашающий набор металлических зажимов, подключенных к кухонному таймеру и закрепленных висячим замком на креплении на голове. Чтобы применить, ударьте им кого-нибудь."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "reverse_bear_trap"
 	slot_flags = ITEM_SLOT_HEAD

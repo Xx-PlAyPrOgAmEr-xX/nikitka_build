@@ -1,6 +1,6 @@
 /obj/item/implant/explosive
-	name = "microbomb implant"
-	desc = "And boom goes the weasel."
+	name = "имплант микробомбы"
+	desc = "Бууум."
 	icon_state = "explosive"
 	actions_types = list(/datum/action/item_action/explosive_implant)
 	// Explosive implant action is always available.

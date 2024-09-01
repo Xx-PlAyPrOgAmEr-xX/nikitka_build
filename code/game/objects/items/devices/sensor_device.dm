@@ -1,6 +1,6 @@
 /obj/item/sensor_device
-	name = "handheld crew monitor" //Thanks to Gun Hog for the name!
-	desc = "A miniature machine that tracks suit sensors across the station."
+	name = "портативный монитор экипажа" //Thanks to Gun Hog for the name!
+	desc = "Миниатюрная машина, которая отслеживает датчики скафандра по всей станции."
 	icon = 'icons/obj/device.dmi'
 	pickup_sound =  'sound/items/handling/device_pickup.ogg'
 	drop_sound = 'sound/items/handling/device_drop.ogg'

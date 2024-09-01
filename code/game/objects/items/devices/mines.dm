@@ -1,7 +1,7 @@
 
 /obj/item/mine
-	name = "mine"
-	desc = "An anti-personnel mine. This one explodes into nothing and does nothing. Why can you see this? You should't be able to see this. Stop looking at this."
+	name = "Мина"
+	desc = "я ебал это переводить ты взорвешься."
 	icon = 'icons/obj/landmine.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	throw_speed = 3

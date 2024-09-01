@@ -1,8 +1,8 @@
 // Powersink - used to drain station power
 
 /obj/item/powersink
-	name = "power sink"
-	desc = "A nulling power sink which drains energy from electrical systems."
+	name = "поглотитель энергии"
+	desc = "Нулевой поглотитель энергии, который забирает энергию из электрических систем."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "powersink0"
 	item_state = "electronic"

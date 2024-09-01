@@ -1,7 +1,7 @@
 //Used by engineering cyborgs in place of generic circuits.
 /obj/item/electroadaptive_pseudocircuit
-	name = "electroadaptive pseudocircuit"
-	desc = "An all-in-one circuit imprinter, designer, synthesizer, outfitter, creator, and chef. It can be used in place of any generic circuit board during construction."
+	name = "электроадаптивная псевдосхема"
+	desc = "Универсальный печатный станок, конструктор, синтезатор, комплектовщик, создатель и шеф-повар. Его можно использовать вместо любой обычной печатной платы при изготовлении."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "boris"
 	w_class = WEIGHT_CLASS_TINY

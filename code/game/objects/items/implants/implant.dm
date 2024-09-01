@@ -1,5 +1,5 @@
 /obj/item/implant
-	name = "implant"
+	name = "имплант"
 	icon = 'icons/obj/implants.dmi'
 	icon_state = "lighting_bolt" //Idk seemes liek the best option, Needs a generic icon but this works
 	actions_types = list(/datum/action/item_action/hands_free/activate)

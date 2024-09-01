@@ -1,7 +1,7 @@
 /obj/item/stack/circuit_stack
-	name = "polycircuit aggregate"
+	name = "микросхемный агрегат"
 	singular_name = "polycircuit"
-	desc = "A dense, overdesigned cluster of electronics which attempted to function as a multipurpose circuit electronic. Circuits can be removed from it... if you don't bleed out in the process."
+	desc = "Плотный, тщательно спроектированный электронный блок, который пытался функционировать как многоцелевая электронная схема. Из него можно удалить схемы... если вы не потеряете работоспособность в процессе."
 	icon_state = "circuit_mess"
 	item_state = "rods"
 	w_class = WEIGHT_CLASS_TINY

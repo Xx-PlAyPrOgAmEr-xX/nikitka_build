@@ -1,6 +1,6 @@
 /obj/item/implant/krav_maga
-	name = "krav maga implant"
-	desc = "Teaches you the arts of Krav Maga in 5 short instructional videos beamed directly into your eyeballs."
+	name = "имплант крав маги"
+	desc = "Обучает вас искусству Крав-Мага в 5 коротких обучающих видеороликах, транслируемых прямо в ваши глаза."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state ="scroll2"
 	activated = 1

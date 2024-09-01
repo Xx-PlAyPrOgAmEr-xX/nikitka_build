@@ -11,8 +11,8 @@
 
 
 /obj/item/multitool
-	name = "multitool"
-	desc = "Used for pulsing wires to test which to cut. Not recommended by doctors."
+	name = "Мультитул"
+	desc = "Используется для накручивания проводов, чтобы определить, какие из них следует перерезать. Не рекомендуется врачами."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "multitool"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'

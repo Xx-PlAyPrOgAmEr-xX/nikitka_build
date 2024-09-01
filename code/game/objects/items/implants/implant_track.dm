@@ -1,6 +1,6 @@
 /obj/item/implant/tracking
-	name = "tracking implant"
-	desc = "Track with this."
+	name = "Имплант слежки"
+	desc = "Отслеживайте с помощью этого."
 	activated = FALSE
 	///for how many deciseconds after user death will the implant work?
 	var/lifespan_postmortem = 6000

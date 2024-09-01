@@ -1,6 +1,6 @@
 /obj/item/implantpad
-	name = "implant pad"
-	desc = "Used to modify implants."
+	name = "прокладка для имплантата"
+	desc = "Используется для модификации имплантов."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "implantpad-0"
 	item_state = "electronic"

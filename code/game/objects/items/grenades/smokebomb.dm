@@ -1,6 +1,6 @@
 /obj/item/grenade/smokebomb
-	name = "smoke grenade"
-	desc = "Real bruh moment if you ever see this. Probably tell a c*der or something."
+	name = "дымовя граната"
+	desc = "брух момент."
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "smokewhite"
 	item_state = "smoke"

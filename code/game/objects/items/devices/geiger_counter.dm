@@ -9,8 +9,8 @@
 #define RAD_GRACE_PERIOD 2
 
 /obj/item/geiger_counter //DISCLAIMER: I know nothing about how real-life Geiger counters work. This will not be realistic. ~Xhuis
-	name = "\improper Geiger counter"
-	desc = "A handheld device used for detecting and measuring radiation pulses."
+	name = "Счётчик гейгера"
+	desc = "Портативное устройство, используемое для обнаружения и измерения импульсов излучения."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "geiger_off"
 	item_state = "geiger"

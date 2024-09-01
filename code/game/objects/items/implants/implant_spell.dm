@@ -1,6 +1,6 @@
 /obj/item/implant/spell
-	name = "spell implant"
-	desc = "Allows you to cast a spell as if you were a wizard."
+	name = "имплантат заклинания"
+	desc = "Позволяет вам произносить заклинания так, как если бы вы были волшебником."
 	activated = FALSE
 
 	var/autorobeless = TRUE // Whether to automagically make the spell robeless on implant

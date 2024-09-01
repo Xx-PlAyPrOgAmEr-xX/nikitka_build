@@ -1,6 +1,6 @@
 /obj/item/implant/weapons_auth
-	name = "firearms authentication implant"
-	desc = "Lets you shoot your guns."
+	name = "бля я случайно удалил название и не запомнил сори"
+	desc = "Позволяет вам стрелять из вашего оружия."
 	activated = 0
 
 /obj/item/implant/weapons_auth/get_data()

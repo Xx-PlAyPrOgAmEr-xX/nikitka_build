@@ -1,6 +1,6 @@
 /obj/machinery/implantchair
-	name = "mindshield implanter"
-	desc = "Used to implant occupants with mindshield implants."
+	name = "имплантер майндшилда"
+	desc = "Используется для имплантации пассажирам имплантатов майндшилда."
 	icon = 'icons/obj/machines/implantchair.dmi'
 	icon_state = "implantchair"
 	density = TRUE

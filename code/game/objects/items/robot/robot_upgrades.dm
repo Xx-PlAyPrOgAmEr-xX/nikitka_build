@@ -2,8 +2,8 @@
 // Contains various borg upgrades.
 
 /obj/item/borg/upgrade
-	name = "borg upgrade module."
-	desc = "Protected by FRM."
+	name = "модуль обновления borg."
+	desc = "Защищеный FRM."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "cyborg_upgrade"
 	w_class = WEIGHT_CLASS_SMALL
@@ -31,14 +31,14 @@
 	return TRUE
 
 /obj/item/borg/upgrade/rename
-	name = "cyborg reclassification board"
-	desc = "Used to rename a cyborg."
+	name = "схема по переквалификации киборгов"
+	desc = "Исполльзуется для переименования киборгов."
 	icon_state = "cyborg_upgrade1"
 	var/heldname = ""
 	one_use = TRUE
 
 /obj/item/borg/upgrade/rename/attack_self(mob/user)
-	heldname = sanitize_name(stripped_input(user, "Enter new robot name", "Cyborg Reclassification", heldname, MAX_NAME_LEN))
+	heldname = sanitize_name(stripped_input(user, "введите новое имя робота", "Cyborg Reclassification", heldname, MAX_NAME_LEN))
 
 /obj/item/borg/upgrade/rename/action(mob/living/silicon/robot/R)
 	. = ..()
@@ -50,8 +50,8 @@
 			R.notify_ai(RENAME, oldname, R.real_name)
 
 /obj/item/borg/upgrade/restart
-	name = "cyborg emergency reboot module"
-	desc = "Used to force a reboot of a disabled-but-repaired cyborg, bringing it back online."
+	name = "модуль аварийной перезагрузки киборга"
+	desc = "Используется для принудительной перезагрузки выведенного из строя, но восстановленного киборга, чтобы вернуть его в рабочее состояние."
 	icon_state = "cyborg_upgrade1"
 	one_use = TRUE
 
@@ -98,8 +98,8 @@
 		T.charge_delay = initial(T.charge_delay)
 
 /obj/item/borg/upgrade/thrusters
-	name = "ion thruster upgrade"
-	desc = "An energy-operated thruster system for cyborgs."
+	name = "модуль ионный движков"
+	desc = "Энергетическая двигательная установка для киборгов."
 	icon_state = "cyborg_upgrade3"
 
 /obj/item/borg/upgrade/thrusters/action(mob/living/silicon/robot/R, user = usr)
@@ -118,8 +118,8 @@
 		R.ionpulse = FALSE
 
 /obj/item/borg/upgrade/ddrill
-	name = "mining cyborg diamond drill"
-	desc = "A diamond drill replacement for the mining module's standard drill."
+	name = "алмазный бур-киборг для добычи полезных ископаемых"
+	desc = "Алмазное сверло, заменяющее стандартное сверло горного модуля."
 	icon_state = "cyborg_upgrade3"
 	require_module = 1
 	module_type = list(/obj/item/robot_module/miner)
@@ -150,8 +150,8 @@
 		R.module.add_module(S, FALSE, TRUE)
 
 /obj/item/borg/upgrade/soh
-	name = "mining cyborg satchel of holding"
-	desc = "A satchel of holding replacement for mining cyborg's ore satchel module."
+	name = "модуль шахтерской сумки киборга"
+	desc = "сумка используется для помещений в неё руд."
 	icon_state = "cyborg_upgrade3"
 	require_module = 1
 	module_type = list(/obj/item/robot_module/miner)
@@ -177,8 +177,8 @@
 		R.module.add_module(S, FALSE, TRUE)
 
 /obj/item/borg/upgrade/tboh
-	name = "janitor cyborg trash bag of holding"
-	desc = "A trash bag of holding replacement for the janiborg's standard trash bag."
+	name = "модуль мусорного пакета"
+	desc = "Вместительный мешок для мусора, заменяющий стандартный мешок для мусора."
 	icon_state = "cyborg_upgrade3"
 	require_module = 1
 	module_type = list(/obj/item/robot_module/janitor)
@@ -204,8 +204,8 @@
 		R.module.add_module(TB, FALSE, TRUE)
 
 /obj/item/borg/upgrade/amop
-	name = "janitor cyborg advanced mop"
-	desc = "An advanced mop replacement for the janiborg's standard mop."
+	name = "модуль улучшенной швабры"
+	desc = "Усовершенствованная швабра, заменяющая стандартную швабру."
 	icon_state = "cyborg_upgrade3"
 	require_module = 1
 	module_type = list(/obj/item/robot_module/janitor)
@@ -231,8 +231,8 @@
 		R.module.add_module(M, FALSE, TRUE)
 
 /obj/item/borg/upgrade/syndicate
-	name = "illegal equipment module"
-	desc = "Unlocks the hidden, deadlier functions of a cyborg."
+	name = "модуль незаконного оборудования"
+	desc = "Открывает скрытые, более смертоносные функции киборга."
 	icon_state = "cyborg_upgrade3"
 	require_module = 1
 

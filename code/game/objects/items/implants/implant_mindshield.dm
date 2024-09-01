@@ -1,6 +1,6 @@
 /obj/item/implant/mindshield
-	name = "mindshield implant"
-	desc = "Protects against brainwashing."
+	name = "майншилд имплант"
+	desc = "Защита от промывки мозгов."
 	activated = 0
 
 /obj/item/implant/mindshield/get_data()

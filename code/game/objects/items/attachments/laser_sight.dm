@@ -1,6 +1,6 @@
 /obj/item/attachment/laser_sight
-	name = "laser sight"
-	desc = "Designed to be rail-mounted on a compatible firearm to provide increased accuracy and decreased spread."
+	name = "Лазерный прицел"
+	desc = "Предназначен для установки на рельсах совместимого огнестрельного оружия для обеспечения повышенной точности и уменьшения разброса."
 	icon_state = "laserpointer"
 
 	attach_features_flags = ATTACH_REMOVABLE_HAND|ATTACH_TOGGLE

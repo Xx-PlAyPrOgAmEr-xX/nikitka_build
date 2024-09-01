@@ -1,6 +1,6 @@
 /obj/item/implantcase
-	name = "implant case"
-	desc = "A glass case containing an implant."
+	name = "футляр для имплантата"
+	desc = "Стеклянный футляр, содержащий имплантат."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "implantcase-0"
 	item_state = "implantcase"

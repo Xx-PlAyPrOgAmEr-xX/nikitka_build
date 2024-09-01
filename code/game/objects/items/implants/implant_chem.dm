@@ -1,6 +1,6 @@
 /obj/item/implant/chem
-	name = "chem implant"
-	desc = "Injects things."
+	name = "химический имплант"
+	desc = "вводит что-то."
 	icon_state = "reagents"
 	activated = FALSE
 

@@ -3,8 +3,8 @@
 
 //Malf Picker
 /obj/item/malf_upgrade
-	name = "combat software upgrade"
-	desc = "A highly illegal, highly dangerous upgrade for artificial intelligence units, granting them a variety of powers as well as the ability to hack APCs.<br>This upgrade does not override any active laws, and must be applied directly to an active AI core."
+	name = "обновление боевого программного обеспечения"
+	desc = "Крайне незаконное и крайне опасное обновление для подразделений искусственного интеллекта, предоставляющее им различные полномочия, а также возможность взламывать БТР.<br> Это обновление не отменяет никаких действующих законов и должно применяться непосредственно к активному ядру искусственного интеллекта.."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "datadisk3"
 

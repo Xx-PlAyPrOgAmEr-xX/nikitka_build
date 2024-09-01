@@ -2,8 +2,8 @@
 //Clusterbang
 ////////////////////
 /obj/item/grenade/clusterbuster
-	desc = "Use of this weapon may constitute a war crime in your area, consult your local captain."
-	name = "clusterbang"
+	desc = "Использование этого оружия может рассматриваться как военное преступление в вашем регионе, проконсультируйтесь с местным капитаном."
+	name = "кластерная граната"
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "clusterbang"
 	var/base_state = "clusterbang"

@@ -1,6 +1,6 @@
 /obj/item/implant/freedom
-	name = "freedom implant"
-	desc = "Use this to escape from those evil Red Shirts."
+	name = "Имплант свободы"
+	desc = "Используйте это чтобы освободиться от красных тварей."
 	icon_state = "freedom"
 	implant_color = "r"
 	uses = 4

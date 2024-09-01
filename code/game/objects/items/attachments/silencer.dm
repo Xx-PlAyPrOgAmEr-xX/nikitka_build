@@ -1,6 +1,6 @@
 /obj/item/attachment/silencer
-	name = "suppressor"
-	desc = "An attachment for the barrel of a firearm. Muffles the gunshot and muzzle flash."
+	name = "Глушитель"
+	desc = "Приспособление для крепления ствола огнестрельного оружия. Приглушает звук выстрела и дульную вспышку."
 	icon_state = "silencer"
 
 	slot = ATTACHMENT_SLOT_MUZZLE

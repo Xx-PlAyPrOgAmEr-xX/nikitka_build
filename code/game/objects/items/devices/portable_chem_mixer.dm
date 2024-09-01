@@ -1,6 +1,6 @@
 /obj/item/storage/portable_chem_mixer
-	name = "Portable Chemical Mixer"
-	desc = "A portable device that dispenses and mixes chemicals. Can be upgraded to hold more beakers by inserting a vortex anomaly core. All necessary reagents need to be supplied with beakers. A label indicates that a screwdriver is required to open it for refills. This device can be worn on a belt. The letters 'S&T' are imprinted on the side."
+	name = "Портативный химический смеситель"
+	desc = "Портативное устройство для дозирования и смешивания химикатов. Его можно модернизировать, чтобы оно вмещало больше химикатов, установив вихревой аномальный сердечник. Все необходимые реагенты должны поставляться в комплекте с химикатами. На этикетке указано, что для их наполнения требуется отвертка. Это устройство можно носить на поясе."
 	icon = 'icons/obj/chemical/misc.dmi'
 	icon_state = "portablechemicalmixer_open"
 	w_class = WEIGHT_CLASS_HUGE

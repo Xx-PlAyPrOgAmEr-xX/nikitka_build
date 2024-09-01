@@ -1,6 +1,6 @@
 /obj/item/implant/stealth
-	name = "S3 implant"
-	desc = "Allows you to be hidden in plain sight."
+	name = "Имплантат S3"
+	desc = "Позволяет вам быть скрытым у всех на виду."
 	actions_types = list(/datum/action/item_action/agent_box)
 
 /obj/item/implanter/stealth

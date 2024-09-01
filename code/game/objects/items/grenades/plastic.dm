@@ -1,6 +1,6 @@
 /obj/item/grenade/c4
-	name = "C-4 charge"
-	desc = "Used to put holes in specific areas without too much extra hole. A saboteur's favorite."
+	name = "Снаряд с4"
+	desc = "Любимая вещь саботеров,в основном используется для взрывов стен."
 	icon_state = "plastic-explosive0"
 	item_state = "plastic-explosive"
 	lefthand_file = 'icons/mob/inhands/weapons/bombs_lefthand.dmi'

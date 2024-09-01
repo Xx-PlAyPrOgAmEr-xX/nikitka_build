@@ -1,5 +1,5 @@
 /obj/item/grenade/antigravity
-	name = "antigravity grenade"
+	name = "антигравитационная граната"
 	icon_state = "emp"
 	item_state = "emp"
 
