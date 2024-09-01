@@ -1,2 +1,8 @@
-![image](https://github.com/user-attachments/assets/1960a81d-4ff2-46bb-b958-60da131ad89e)
-# nikitka_build
+![image](https://github.com/user-attachments/assets/89146aa6-9d15-4fde-b612-4f407625db6b)
+### НИКИТКА БИЛД
+## Прикольчики, базируется на шиптесте 2024 года
+#
+## Кто помогал в разработке:
+# (xxplayprogamerxx) Никитка №2: настроил конфиг, переводит билд, хостит
+# (nikitauou) Никитка №1: кодит (много букв, но работают мало)
+# (rs) Гарик Отмычка: рисует пенисы
