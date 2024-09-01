@@ -2,8 +2,8 @@
 #define HALFWAYCRITDEATH ((HEALTH_THRESHOLD_CRIT + HEALTH_THRESHOLD_DEAD) * 0.5)
 
 /obj/item/defibrillator
-	name = "defibrillator"
-	desc = "A device that delivers powerful shocks to detachable paddles that resuscitate incapacitated patients."
+	name = "дефибилятор"
+	desc = "Использует силу электричества для воскрешения пациентов."
 	icon = 'icons/obj/defib.dmi'
 	icon_state = "defibunit"
 	item_state = "defibunit"

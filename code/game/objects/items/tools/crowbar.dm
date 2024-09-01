@@ -1,6 +1,6 @@
 /obj/item/crowbar
-	name = "pocket crowbar"
-	desc = "A small crowbar. This handy tool is useful for lots of things, such as prying floor tiles or opening unpowered doors."
+	name = "карманный ломик"
+	desc = "Это маленький ломик."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "crowbar"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
@@ -35,8 +35,8 @@
 
 
 /obj/item/crowbar/large
-	name = "crowbar"
-	desc = "It's a big crowbar. It doesn't fit in your pockets, because it's big."
+	name = "лом"
+	desc = "Это большой лом, действительно большой."
 	force = 12
 	w_class = WEIGHT_CLASS_NORMAL
 	throw_speed = 3
@@ -108,8 +108,8 @@
 		..()
 
 /obj/item/crowbar/cyborg
-	name = "hydraulic crowbar"
-	desc = "A hydraulic prying tool, simple but powerful."
+	name = "гидравлический лом"
+	desc = "Обыкновенно, но надежно."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "crowbar_cyborg"
 	usesound = 'sound/items/jaws_pry.ogg'
@@ -117,7 +117,7 @@
 	toolspeed = 0.5
 
 /obj/item/crowbar/syndie
-	name = "suspicious-looking crowbar"
+	name = "подозрительно выглядищий лом"
 	desc = "It has special counterweights that adjust to the amount of pressure put on it by using a complex array of springs and screws."
 	icon_state = "crowbar_syndie"
 	toolspeed = 0.5

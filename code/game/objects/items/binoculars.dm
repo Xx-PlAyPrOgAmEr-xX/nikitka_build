@@ -1,6 +1,6 @@
 /obj/item/binoculars
-	name = "binoculars"
-	desc = "Used for long-distance surveillance."
+	name = "бинокль"
+	desc = "Используется чтобы смотреть вдаль.."
 	item_state = "binoculars"
 	icon_state = "binoculars"
 	slot_flags = ITEM_SLOT_BELT

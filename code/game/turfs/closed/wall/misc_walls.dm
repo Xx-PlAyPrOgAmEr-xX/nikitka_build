@@ -1,6 +1,6 @@
 /turf/closed/wall/mineral/cult
 	name = "runed metal wall"
-	desc = "A cold metal wall engraved with indecipherable symbols. Studying them causes your head to pound."
+	desc = "Холодная металлическая стена, на которой выгравированы неразборчивые символы. От их изучения у вас начинает болеть голова."
 	icon = 'icons/turf/walls/cult_wall.dmi'
 	icon_state = "cult_wall-0"
 	base_icon_state = "cult_wall"
@@ -25,8 +25,8 @@
 			H.start_pulling(stored_pulling, supress_message = TRUE)
 
 /turf/closed/wall/mineral/cult/artificer
-	name = "runed stone wall"
-	desc = "A cold stone wall engraved with indecipherable symbols. Studying them causes your head to pound."
+	name = "разрушенная каменная стена"
+	desc = "Холодная каменная стена, на которой выгравированы неразборчивые символы. От их изучения у тебя начинает болеть голова."
 	sheet_type = null
 	girder_type = null
 

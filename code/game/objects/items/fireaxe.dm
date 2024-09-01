@@ -6,8 +6,8 @@
 	base_icon_state = "fireaxe"
 	lefthand_file = 'icons/mob/inhands/weapons/axes_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/axes_righthand.dmi'
-	name = "fire axe"
-	desc = "Truly, the weapon of a madman. Who would think to fight fire with an axe?"
+	name = "пожарный топор"
+	desc = "В основном используется американскими психами, хоть кто-то использовал его для тушении пожаров?"
 	force = 5
 	throwforce = 15
 	w_class = WEIGHT_CLASS_BULKY

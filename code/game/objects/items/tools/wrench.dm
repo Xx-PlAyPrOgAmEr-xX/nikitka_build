@@ -1,6 +1,6 @@
 /obj/item/wrench
-	name = "wrench"
-	desc = "A wrench with common uses. Can be found in your hand. This one is a pipe wrench."
+	name = "гаечный ключ"
+	desc = "Гаечный ключ для обычного использования. Его можно взять в руки. Это трубный ключ."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "wrench_pipe" //now where could my pipe wrench be?
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
@@ -21,8 +21,8 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 30)
 
 /obj/item/wrench/abductor
-	name = "alien wrench"
-	desc = "A polarized wrench. It causes anything placed between the jaws to turn."
+	name = "инопланетый гаечный ключ"
+	desc = "Гаечный ключ с поляризацией. Он поворачивает все, что находится между зажимами."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "wrench"
 	usesound = 'sound/effects/empulse.ogg'
@@ -30,8 +30,8 @@
 
 
 /obj/item/wrench/medical
-	name = "medical wrench"
-	desc = "A medical wrench with common(medical?) uses. Can be found in your hand."
+	name = "медицинский гаечный ключ"
+	desc = "Медицинский гаечный ключ для обычного (медицинского?) использования. Его можно найти в вашей руке."
 	icon_state = "wrench_medical"
 	item_state = "wrench"
 	force = 2 //MEDICAL
@@ -42,15 +42,15 @@
 	. = ..()
 
 /obj/item/wrench/cyborg
-	name = "hydraulic wrench"
-	desc = "An advanced robotic wrench, powered by internal hydraulics. Twice as fast as the handheld version."
+	name = "гидравлический ключ"
+	desc = "Усовершенствованный роботизированный гаечный ключ, приводимый в действие внутренней гидравликой. В два раза быстрее, чем портативная версия."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wrench_cyborg"
 	toolspeed = 0.5
 
 /obj/item/wrench/combat
-	name = "combat wrench"
-	desc = "It's like a normal wrench but edgier. Can be found on the battlefield."
+	name = "боевой гаечный ключ"
+	desc = "Он похож на обычный гаечный ключ, но более острый. Его можно найти на поле боя."
 	icon_state = "wrench_combat"
 	item_state = "wrench_combat"
 	tool_behaviour = null
@@ -95,7 +95,7 @@
 	return ..()
 
 /obj/item/wrench/syndie
-	name = "suspicious-looking wrench"
+	name = "подозрительный на вид гаечный ключ"
 	desc = "It's one of those fancy wrenches that you turn backward without twisting the bolt for faster action."
 	icon_state = "wrench_syndie"
 	toolspeed = 0.5

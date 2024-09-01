@@ -1,6 +1,6 @@
 /obj/item/melee/baton
-	name = "stun baton"
-	desc = "A stun baton for incapacitating people with."
+	name = "электрическая дубинка"
+	desc = "используется для остановки людей."
 
 	icon_state = "stunbaton"
 	item_state = "baton"

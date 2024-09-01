@@ -1,7 +1,7 @@
 /obj/machinery/door/poddoor/shutters
 	gender = PLURAL
-	name = "shutters"
-	desc = "Heavy duty metal shutters that open mechanically."
+	name = "ставни"
+	desc = "огромные металические ставни."
 	icon = 'icons/obj/doors/shutters.dmi'
 	damage_deflection = 20
 	smoothing_groups = list(SMOOTH_GROUP_AIRLOCK)

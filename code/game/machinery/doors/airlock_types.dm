@@ -29,24 +29,24 @@
 	assemblytype = /obj/structure/door_assembly/door_assembly_med
 
 /obj/machinery/door/airlock/maintenance
-	name = "maintenance access"
+	name = "доступ для обслуживания"
 	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_mai
 	normal_integrity = 250
 
 /obj/machinery/door/airlock/maintenance/external
-	name = "external airlock access"
+	name = "внешний доступ к шлюзу"
 	icon = 'icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_extmai
 	has_hatch = FALSE
 
 /obj/machinery/door/airlock/mining
-	name = "mining airlock"
+	name = "шахтерский воздушный шлюз"
 	icon = 'icons/obj/doors/airlocks/station/mining.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_min
 
 /obj/machinery/door/airlock/atmos
-	name = "atmospherics airlock"
+	name = "атмосферный воздушный шлюз"
 	icon = 'icons/obj/doors/airlocks/station/atmos.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_atmo
 
@@ -55,7 +55,7 @@
 	assemblytype = /obj/structure/door_assembly/door_assembly_research
 
 /obj/machinery/door/airlock/freezer
-	name = "freezer airlock"
+	name = "холодильный воздушный шлюз"
 	icon = 'icons/obj/doors/airlocks/station/freezer.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_fre
 

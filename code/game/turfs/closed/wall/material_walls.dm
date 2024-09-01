@@ -1,6 +1,6 @@
 /turf/closed/wall/material
-	name = "wall"
-	desc = "A huge chunk of material used to separate rooms."
+	name = "стена"
+	desc = "Огромный кусок материала, использованный для разделения комнат."
 	icon = 'icons/turf/walls/materialwall.dmi'
 	icon_state = "materialwall-0"
 	base_icon_state = "materialwall"

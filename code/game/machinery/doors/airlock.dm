@@ -40,7 +40,7 @@
 #define AIRLOCK_DAMAGE_DEFLECTION_R 30  // Reinforced airlock damage deflection
 
 /obj/machinery/door/airlock
-	name = "airlock"
+	name = "воздушный шлюз"
 	icon = 'icons/obj/doors/airlocks/station/public.dmi'
 	icon_state = "closed"
 	max_integrity = 300

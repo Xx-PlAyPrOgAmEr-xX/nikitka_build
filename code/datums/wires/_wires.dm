@@ -70,22 +70,22 @@
 
 /datum/wires/proc/randomize()
 	var/static/list/possible_colors = list(
-	"blue",
-	"brown",
+	"синий",
+	"кориченый",
 	"crimson",
 	"cyan",
-	"gold",
-	"grey",
-	"green",
-	"magenta",
-	"orange",
-	"pink",
-	"purple",
-	"red",
-	"silver",
-	"violet",
-	"white",
-	"yellow"
+	"золотой",
+	"серый",
+	"зёленый",
+	"магентовый",
+	"оранжевый",
+	"розовый",
+	"фиолетовый",
+	"красный",
+	"серебрянный",
+	"фиолетовый",
+	"белый",
+	"жёлтый"
 	)
 
 	var/list/my_possible_colors = possible_colors.Copy()

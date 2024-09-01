@@ -1,6 +1,6 @@
 /turf/closed/wall/concrete
-	name = "concrete wall"
-	desc = "A thick wall made of concrete, poured around steel supports."
+	name = "бетонная стена"
+	desc = "Толстая стена из бетона, залитая вокруг стальной опоры."
 	icon = 'icons/turf/walls/concrete.dmi'
 	icon_state = "concrete-0"
 	base_icon_state = "concrete"

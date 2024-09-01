@@ -1,6 +1,6 @@
 /obj/item/screwdriver
-	name = "screwdriver"
-	desc = "You can be totally screwy with this."
+	name = "отвёртка"
+	desc = "С этим можно быть совершенно чокнутым."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "screwdriver_map"
 	item_state = "screwdriver"
@@ -70,8 +70,8 @@
 		return mutable_appearance('icons/obj/clothing/belt_overlays.dmi', icon_state)
 
 /obj/item/screwdriver/abductor
-	name = "alien screwdriver"
-	desc = "An ultrasonic screwdriver."
+	name = "инопланетная отвёртка"
+	desc = "Ультра-отвёртка."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "screwdriver_a"
 	item_state = "screwdriver_nuke"
@@ -83,8 +83,8 @@
 	return mutable_appearance('icons/obj/clothing/belt_overlays.dmi', "screwdriver_nuke")
 
 /obj/item/screwdriver/power
-	name = "hand drill"
-	desc = "A simple powered hand drill."
+	name = "ручная дрель"
+	desc = "Это простая ручная дрель на электричестве."
 	icon_state = "drill_screw"
 	item_state = "drill"
 	custom_materials = list(/datum/material/iron=150,/datum/material/silver=50,/datum/material/titanium=25) //done for balance reasons, making them high value for research, but harder to get
@@ -140,8 +140,8 @@
 		. += mode_ovelay
 
 /obj/item/screwdriver/cyborg
-	name = "automated screwdriver"
-	desc = "A powerful automated screwdriver, designed to be both precise and quick."
+	name = "автоматическая отвёртка"
+	desc = "Мощная автоматизированная отвертка, разработанная для точного и быстрого использования.."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "screwdriver_cyborg"
 	hitsound = 'sound/items/drill_hit.ogg'

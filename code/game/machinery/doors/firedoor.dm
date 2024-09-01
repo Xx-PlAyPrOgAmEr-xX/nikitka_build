@@ -7,8 +7,8 @@
 /datum/var/__auxtools_weakref_id
 
 /obj/machinery/door/firedoor
-	name = "firelock"
-	desc = "Apply crowbar."
+	name = "пожарный шлюз"
+	desc = "только монтировка."
 	icon = 'icons/obj/doors/doorfireglass.dmi'
 	icon_state = "door_open"
 	opacity = FALSE

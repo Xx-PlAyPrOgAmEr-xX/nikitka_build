@@ -1,6 +1,6 @@
 /obj/item/mop
-	desc = "The world of janitalia wouldn't be complete without a mop."
-	name = "mop"
+	desc = "лучший друг уборщика."
+	name = "швабра"
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "mop"
 	lefthand_file = 'icons/mob/inhands/equipment/custodial_lefthand.dmi'
