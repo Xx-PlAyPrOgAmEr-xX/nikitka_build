@@ -4,7 +4,7 @@
 #define AREA_SPECIAL 3
 
 /obj/item/areaeditor
-	name = "area modification item"
+	name = "предмет для изменения зон"
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "blueprints"
 	attack_verb = list("attacked", "bapped", "hit")
@@ -44,8 +44,8 @@
 
 //Station blueprints!!!
 /obj/item/areaeditor/blueprints
-	name = "station blueprints"
-	desc = "Blueprints of what appear to be an experimental station design, with a large spinal weapon mounted to the front. There is a \"Classified\" stamp and several coffee stains on it."
+	name = "чертежи станции"
+	desc = "Чертежи того, что, по-видимому, является экспериментальной станцией, с большим спинным оружием, установленным спереди. На нем есть штамп \"Секретно\" и несколько пятен кофе.."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "blueprints"
 	fluffnotice = "Property of Nanotrasen. For heads of staff only. Store in high-secure storage."

@@ -11,8 +11,8 @@
  */
 
 /obj/item/soap
-	name = "soap"
-	desc = "A cheap bar of soap. Doesn't smell."
+	name = "мыло"
+	desc = "скользкое.."
 	gender = PLURAL
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "soap"

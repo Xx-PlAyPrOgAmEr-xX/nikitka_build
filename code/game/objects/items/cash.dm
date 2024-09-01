@@ -102,27 +102,27 @@
 
 	if(coins_only)
 		if(value == 1)
-			name = "one credit coin"
-			desc = "Heavier then it looks."
+			name = "монетка с одним кредитом"
+			desc = "монетка."
 			drop_sound = 'sound/items/handling/coin_drop.ogg'
 			pickup_sound =  'sound/items/handling/coin_pickup.ogg'
 		else
-			name = "[value] credits"
-			desc = "Heavier than they look."
+			name = "[value] кредит"
+			desc = "Тяжелее, чем кажутся."
 			gender = PLURAL
 			drop_sound = 'sound/items/handling/coin_drop.ogg'
 			pickup_sound =  'sound/items/handling/coin_pickup.ogg'
 	else
 		if(value <= 3000)
-			name = "[value] credits"
+			name = "[value] кредитов"
 			gender = NEUTER
-			desc = "Some cold, hard cash."
+			desc = "Очень круто, тяжелые деньги."
 			drop_sound = 'sound/items/handling/dosh_drop.ogg'
 			pickup_sound =  'sound/items/handling/dosh_pickup.ogg'
 		else
-			name = "[value] credits"
+			name = "[value] кредитов"
 			gender = NEUTER
-			desc = "That's a lot of dosh."
+			desc = "довольно много."
 			drop_sound = 'sound/items/handling/dosh_drop.ogg'
 			pickup_sound =  'sound/items/handling/dosh_pickup.ogg'
 	return ..()

@@ -1,6 +1,6 @@
 /obj/item/wirecutters
-	name = "wirecutters"
-	desc = "This cuts wires."
+	name = "кусачки"
+	desc = "Режет провода."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "cutters_map"
 	item_state = "cutters"
@@ -69,24 +69,24 @@
 		..()
 
 /obj/item/wirecutters/abductor
-	name = "alien wirecutters"
-	desc = "Extremely sharp wirecutters, made out of a silvery-green metal."
+	name = "инопланетные кусачки для проволоки"
+	desc = "Чрезвычайно острые кусачки для проволоки, изготовленные из серебристо-зеленого металла."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "cutters"
 	toolspeed = 0.1
 	random_color = FALSE
 
 /obj/item/wirecutters/cyborg
-	name = "powered wirecutters"
-	desc = "Cuts wires with the power of ELECTRICITY. Faster than normal wirecutters."
+	name = "кусачки с электроприводом"
+	desc = "Режет провода с помощью электричества. Быстрее, чем обычные кусачки."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wirecutters_cyborg"
 	toolspeed = 0.5
 	random_color = FALSE
 
 /obj/item/wirecutters/syndie
-	name = "suspicious-looking wirecutters"
-	desc = "The blades of these wirecutters have suspiciously fine serrated teeth."
+	name = "подозрительно выглядящие кусачки"
+	desc = "Лезвия этих кусачек для проволоки имеют подозрительно тонкие зазубренные зубья."
 	icon_state = "cutters_syndie"
 	toolspeed = 0.5
 	random_color = FALSE

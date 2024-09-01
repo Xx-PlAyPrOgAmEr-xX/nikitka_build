@@ -8,8 +8,8 @@ Buildable meters
 //...otherwise construction will stop working
 
 /obj/item/pipe
-	name = "pipe"
-	desc = "A pipe."
+	name = "труба"
+	desc = "Это труба."
 	var/pipe_type
 	var/pipename
 	force = 7

@@ -78,16 +78,16 @@
 
 /datum/armor/proc/getList()
 	return list(
-		"melee" = melee,
-		"bullet" = bullet,
-		"laser" = laser,
-		"energy" = energy,
-		"bomb" = bomb,
-		"bio" = bio,
-		"rad" = rad,
-		"fire" = fire,
-		"acid" = acid,
-		"magic" = magic
+		"ближний бой" = melee,
+		"пули" = bullet,
+		"лазеры" = laser,
+		"лазерное" = energy,
+		"бомбы" = bomb,
+		"био" = bio,
+		"радиация" = rad,
+		"огонь" = fire,
+		"кислота" = acid,
+		"магия" = magic
 	)
 
 /datum/armor/proc/attachArmor(datum/armor/AA)

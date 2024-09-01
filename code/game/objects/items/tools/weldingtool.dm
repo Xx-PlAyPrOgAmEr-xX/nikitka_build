@@ -1,7 +1,7 @@
 #define WELDER_FUEL_BURN_INTERVAL 13
 /obj/item/weldingtool
-	name = "welding tool"
-	desc = "A standard welder, used for cutting through metal."
+	name = "сварочный аппарат"
+	desc = "Стандартный сварочный аппарат, используемый для резки металла.."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "welder"
 	item_state = "welder"
@@ -306,8 +306,8 @@
 		return ""
 
 /obj/item/weldingtool/mini
-	name = "emergency welding tool"
-	desc = "A miniature welder used during emergencies."
+	name = "экстренный сварочный аппарат"
+	desc = "Миниатюрный сварочный аппарат, используемый в чрезвычайных ситуациях.."
 	icon_state = "miniwelder"
 	max_fuel = 10
 	w_class = WEIGHT_CLASS_TINY
@@ -318,8 +318,8 @@
 	start_full = FALSE
 
 /obj/item/weldingtool/largetank
-	name = "industrial welding tool"
-	desc = "A slightly larger welder with a larger tank."
+	name = "индустриальный сварочный аппарат"
+	desc = "Немного более крупный сварочный аппарат с большим баком."
 	icon_state = "indwelder"
 	max_fuel = 40
 	custom_materials = list(/datum/material/iron = 70, /datum/material/glass=60)
@@ -355,8 +355,8 @@
 	..()
 
 /obj/item/weldingtool/hugetank
-	name = "upgraded industrial welding tool"
-	desc = "An upgraded welder based of the industrial welder."
+	name = "модернизированный промышленный сварочный инструментl"
+	desc = "Модернизированный сварочный аппарат на базе промышленного сварочного аппарата."
 	icon_state = "upindwelder"
 	item_state = "upindwelder"
 	max_fuel = 80
@@ -366,8 +366,8 @@
 	start_full = FALSE
 
 /obj/item/weldingtool/experimental
-	name = "experimental welding tool"
-	desc = "An experimental welder capable of self-fuel generation and less harmful to the eyes."
+	name = "экспериментальный сварочный инструмент"
+	desc = "Экспериментальный сварочный аппарат, способный самостоятельно вырабатывать топливо и менее вредный для глаз."
 	icon_state = "exwelder"
 	item_state = "exwelder"
 	max_fuel = 40

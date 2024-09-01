@@ -1,6 +1,6 @@
 /obj/item/inducer
-	name = "inducer"
-	desc = "A tool for inductively charging internal power cells."
+	name = "индуктор"
+	desc = "инструмент для заряда электричеством разные электроприборы."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "inducer-engi"
 	item_state = "inducer-engi"

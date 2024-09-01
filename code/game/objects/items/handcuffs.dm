@@ -17,8 +17,8 @@
 //Handcuffs
 
 /obj/item/restraints/handcuffs
-	name = "handcuffs"
-	desc = "Use this to keep prisoners in line."
+	name = "наручники"
+	desc = "вы и так знаете как это использовать."
 	gender = PLURAL
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "handcuff"

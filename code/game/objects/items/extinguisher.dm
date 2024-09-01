@@ -1,6 +1,6 @@
 /obj/item/extinguisher
-	name = "fire extinguisher"
-	desc = "A traditional red fire extinguisher."
+	name = "огнетушитель"
+	desc = "обычный огнетушитель."
 	icon = 'icons/obj/extinguisher.dmi'
 	icon_state = "fire_extinguisher0"
 	item_state = "fire_extinguisher"
@@ -31,8 +31,8 @@
 	start_full = FALSE
 
 /obj/item/extinguisher/mini
-	name = "pocket fire extinguisher"
-	desc = "A light and compact fibreglass-framed model fire extinguisher."
+	name = "карманный огнетушитель"
+	desc = "маленький огнетушитель."
 	icon_state = "miniFE0"
 	item_state = "miniFE"
 	hitsound = null	//it is much lighter, after all.
@@ -61,8 +61,8 @@
 		create_reagents(max_water, AMOUNT_VISIBLE)
 
 /obj/item/extinguisher/advanced
-	name = "advanced fire extinguisher"
-	desc = "Used to stop thermonuclear fires from spreading inside your engine."
+	name = "улучшенный огнетушитель"
+	desc = "используется для остановки пожара прямо в двигателе."
 	icon_state = "foam_extinguisher0"
 	//item_state = "foam_extinguisher" needs sprite
 	dog_fashion = null
