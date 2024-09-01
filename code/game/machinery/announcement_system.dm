@@ -2,8 +2,8 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 
 /obj/machinery/announcement_system
 	density = TRUE
-	name = "\improper Automated Announcement System"
-	desc = "An automated announcement system that handles minor announcements over the radio."
+	name = "\improper Автоматизированная система оповещения"
+	desc = "Автоматизированная система оповещения, которая обрабатывает незначительные объявления по радио."
 	icon = 'icons/obj/machines/telecomms.dmi'
 	icon_state = "AAS_On"
 	base_icon_state = "AAS"
@@ -84,9 +84,9 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 	else if(message_type == "NEWHEAD" && newheadToggle)
 		message = CompileText(newhead, user, rank)
 	else if(message_type == "AIWIPE" && newheadToggle)
-		message = CompileText("%PERSON has been moved to intelligence storage.", user, rank)
+		message = CompileText("%PERSON был перемещен в хранилище разведывательных данных.", user, rank)
 	else if(message_type == "CRYOSTORAGE")
-		message = CompileText("%PERSON, %RANK has been moved to cryo storage.", user, rank)
+		message = CompileText("%PERSON, %RANK был перемещен в криохранилище.", user, rank)
 	else if(message_type == "ARRIVALS_BROKEN")
 		message = "The arrivals shuttle has been damaged. Docking for repairs..."
 
@@ -99,7 +99,7 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 /obj/machinery/announcement_system/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
-		ui = new(user, src, "AutomatedAnnouncement")
+		ui = new(user, src, "Автоматическое объявление")
 		ui.open()
 
 /obj/machinery/announcement_system/ui_data()

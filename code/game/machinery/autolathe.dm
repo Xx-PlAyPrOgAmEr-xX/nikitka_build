@@ -3,8 +3,8 @@
 #define AUTOLATHE_SEARCH_MENU 3
 
 /obj/machinery/autolathe
-	name = "autolathe"
-	desc = "It produces items using metal and glass and maybe other materials, can take design disks."
+	name = "автолат"
+	desc = "Он производит изделия из металла, стекла и, возможно, других материалов, может использовать дизайнерские диски.."
 	icon = 'icons/obj/machines/autolathe.dmi'
 	icon_state = "autolathe"
 	density = TRUE
@@ -39,15 +39,15 @@
 	var/hacked_price = 50
 
 	var/list/categories = list(
-							"Tools",
-							"Electronics",
-							"Construction",
+							"Инструменты",
+							"Электроника",
+							"Строительство",
 							"T-Comm",
-							"Security",
-							"Machinery",
-							"Medical",
-							"Misc",
-							"Dinnerware"
+							"Охрана",
+							"Машинерия",
+							"Медицина",
+							"Разное",
+							"Столовая посуда"
 							)
 
 /obj/machinery/autolathe/Initialize()
@@ -257,9 +257,9 @@
 				addtimer(CALLBACK(src, PROC_REF(make_item), power, materials_used, custom_materials, multiplier, coeff, is_stack, usr), time)
 				. = TRUE
 			else
-				to_chat(usr, "<span class=\"alert\">Not enough materials for this operation.</span>")
+				to_chat(usr, "<span class=\"alert\">Недостаточно материалов для этой операции.</span>")
 		else
-			to_chat(usr, "<span class=\"alert\">The autolathe is busy. Please wait for completion of previous operation.</span>")
+			to_chat(usr, "<span class=\"alert\">Автолат занят. Пожалуйста, дождитесь завершения предыдущей операции.</span>")
 
 /obj/machinery/autolathe/on_deconstruction()
 	if(d_disk) // Drops the design disk on the floor when destroyed
@@ -270,7 +270,7 @@
 
 /obj/machinery/autolathe/attackby(obj/item/O, mob/living/user, params)
 	if (busy)
-		to_chat(user, "<span class=\"alert\">The autolathe is busy. Please wait for completion of previous operation.</span>")
+		to_chat(user, "<span class=\"alert\">Автолат. Пожалуйста, дождитесь завершения предыдущей операции.</span>")
 		return TRUE
 
 	if(default_deconstruction_screwdriver(user, "autolathe_t", "autolathe", O))
@@ -291,10 +291,10 @@
 
 	if(istype(O, /obj/item/disk/design_disk))
 		if(d_disk)
-			to_chat(user, "<span class='warning'>A design disk is already loaded!</span>")
+			to_chat(user, "<span class='warning'>Диск с дизайном уже загружен!</span>")
 			return TRUE
 		if(!user.transferItemToLoc(O, src))
-			to_chat(user, "<span class='warning'>[O] is stuck to your hand!</span>")
+			to_chat(user, "<span class='warning'>[O] прилипает к твоей руке!</span>")
 			return TRUE
 		to_chat(user, "<span class='notice'>You insert [O] into \the [src]!</span>")
 		playsound(src, 'sound/machines/terminal_insert_disc.ogg', 50, FALSE)
@@ -374,7 +374,7 @@
 	. += ..()
 	var/datum/component/material_container/materials = GetComponent(/datum/component/material_container)
 	if(in_range(user, src) || isobserver(user))
-		. += "<span class='notice'>The status display reads: Storing up to <b>[materials.max_amount]</b> material units.<br>Material consumption at <b>[creation_efficiency*100]%</b>.</span>"
+		. += "<span class='notice'>На дисплее состояния отображается надпись: Сохранение до <b>[materials.max_amount]</b> материальные единицы.<br>потребление при <b>[creation_efficiency*100]%</b>.</span>"
 		if (d_disk)
 			. += "<span class='notice'>[d_disk.name] is loaded, Alt-Click to remove.</span>"
 

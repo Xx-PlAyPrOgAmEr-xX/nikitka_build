@@ -81,7 +81,7 @@ Class Procs:
 */
 
 /obj/machinery
-	name = "machinery"
+	name = "механическое оборудование"
 	icon = 'icons/obj/stationobjs.dmi'
 	desc = "Some kind of machine."
 	verb_say = "beeps"
@@ -503,11 +503,11 @@ Class Procs:
 		if(!panel_open)
 			panel_open = TRUE
 			icon_state = icon_state_open
-			to_chat(user, "<span class='notice'>You open the maintenance hatch of [src].</span>")
+			to_chat(user, "<span class='notice'>Вы открываете люк для технического обслуживания [src].</span>")
 		else
 			panel_open = FALSE
 			icon_state = icon_state_closed
-			to_chat(user, "<span class='notice'>You close the maintenance hatch of [src].</span>")
+			to_chat(user, "<span class='notice'>Вы закрываете люк для технического обслуживания [src].</span>")
 		return TRUE
 	return FALSE
 
@@ -521,7 +521,7 @@ Class Procs:
 
 /obj/proc/can_be_unfasten_wrench(mob/user, silent) //if we can unwrench this object; returns SUCCESSFUL_UNFASTEN and FAILED_UNFASTEN, which are both TRUE, or CANT_UNFASTEN, which isn't.
 	if(!(isfloorturf(loc) || istype(loc, /turf/open/indestructible)) && !anchored)
-		to_chat(user, "<span class='warning'>[src] needs to be on the floor to be secured!</span>")
+		to_chat(user, "<span class='warning'>[src] должен быть на полу чтобы прикрутить!</span>")
 		return FAILED_UNFASTEN
 	return SUCCESSFUL_UNFASTEN
 
@@ -605,7 +605,7 @@ Class Procs:
 
 /obj/machinery/proc/display_parts(mob/user)
 	. = list()
-	. += "<span class='notice'>It contains the following parts:</span>"
+	. += "<span class='notice'>Он содержит следующие части:</span>"
 	for(var/obj/item/C in component_parts)
 		. += "<span class='notice'>[icon2html(C, user)] \A [C].</span>"
 	. = jointext(., "")
@@ -620,11 +620,11 @@ Class Procs:
 		var/healthpercent = (obj_integrity/max_integrity) * 100
 		switch(healthpercent)
 			if(50 to 99)
-				. += "It looks slightly damaged."
+				. += "Он выглядит слегка поврежденным."
 			if(25 to 50)
-				. += "It appears heavily damaged."
+				. += "Он выглядит сильно поврежденным."
 			if(0 to 25)
-				. += "<span class='warning'>It's falling apart!</span>"
+				. += "<span class='warning'>Все разваливается на части!</span>"
 	if(user.research_scanner && component_parts)
 		. += display_parts(user, TRUE)
 

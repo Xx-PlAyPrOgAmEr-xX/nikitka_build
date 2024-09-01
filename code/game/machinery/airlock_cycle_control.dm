@@ -49,21 +49,21 @@
 #define BUILD_COMPLETE 2
 
 /obj/item/electronics/advanced_airlock_controller
-	name = "airlock controller electronics"
+	name = "электроника управления воздушным шлюзом"
 	custom_price = 5
 	icon_state = "airalarm_electronics"
 
 /obj/item/wallframe/advanced_airlock_controller
-	name = "airlock controller frame"
-	desc = "Used for building advanced airlock controllers."
+	name = "рама контроллера воздушного шлюза"
+	desc = "Используется для создания усовершенствованных контроллеров воздушных шлюзов."
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "aac_bitem"
 	result_path = /obj/machinery/advanced_airlock_controller
 	inverse = FALSE
 
 /obj/machinery/advanced_airlock_controller
-	name = "advanced airlock controller"
-	desc = "A machine designed to control the operation of cycling airlocks"
+	name = "усовершенствованный контроллер воздушного шлюза"
+	desc = "Машина, предназначенная для управления работой циклических воздушных шлюзов"
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "aac"
 	use_power = IDLE_POWER_USE
@@ -482,11 +482,11 @@
 		if(BUILD_NO_WIRES)
 			if(W.tool_behaviour == TOOL_CROWBAR)
 				user.visible_message("[user.name] removes the electronics from [src.name].",\
-									"<span class='notice'>You start prying out the circuit...</span>")
+									"<span class='notice'>Вы начинаете выводить схему из строя...</span>")
 				W.play_tool_sound(src)
 				if (W.use_tool(src, user, 20))
 					if (buildstage == BUILD_NO_WIRES)
-						to_chat(user, "<span class='notice'>You remove the airlock controller electronics.</span>")
+						to_chat(user, "<span class='notice'>Вы снимаете электронику управления воздушным шлюзом.</span>")
 						new /obj/item/electronics/advanced_airlock_controller(src.loc)
 						playsound(src.loc, 'sound/items/deconstruct.ogg', 50, 1)
 						buildstage = BUILD_NO_CIRCUIT
@@ -496,14 +496,14 @@
 			if(istype(W, /obj/item/stack/cable_coil))
 				var/obj/item/stack/cable_coil/cable = W
 				if(cable.get_amount() < 5)
-					to_chat(user, "<span class='warning'>You need five lengths of cable to wire the airlock controller!</span>")
+					to_chat(user, "<span class='warning'>Вам понадобится пять отрезков кабеля, чтобы подключить контроллер воздушного шлюза!</span>")
 					return
-				user.visible_message("[user.name] wires the airlock controller.", \
-									"<span class='notice'>You start wiring the airlock controller...</span>")
+				user.visible_message("[user.name] подключает контроллер воздушного шлюза.", \
+									"<span class='notice'>Вы начинаете подключать контроллер воздушного шлюза...</span>")
 				if (do_after(user, 20, target = src))
 					if (cable.get_amount() >= 5 && buildstage == BUILD_NO_WIRES)
 						cable.use(5)
-						to_chat(user, "<span class='notice'>You wire the airlock controller.</span>")
+						to_chat(user, "<span class='notice'>Ты подключаешь контроллер воздушного шлюза.</span>")
 						wires.repair()
 						aidisabled = FALSE
 						locked = FALSE
@@ -516,7 +516,7 @@
 		if(BUILD_NO_CIRCUIT)
 			if(istype(W, /obj/item/electronics/advanced_airlock_controller))
 				if(user.temporarilyRemoveItemFromInventory(W))
-					to_chat(user, "<span class='notice'>You insert the circuit.</span>")
+					to_chat(user, "<span class='notice'>Вы вставляете схему.</span>")
 					buildstage = BUILD_NO_WIRES
 					update_appearance()
 					qdel(W)
@@ -526,14 +526,14 @@
 				var/obj/item/electroadaptive_pseudocircuit/P = W
 				if(!P.adapt_circuit(user, 25))
 					return
-				user.visible_message("<span class='notice'>[user] fabricates a circuit and places it into [src].</span>", \
+				user.visible_message("<span class='notice'>[user] создает схему и помещает ее в [src].</span>", \
 				"<span class='notice'>You adapt an airlock controller circuit and slot it into the assembly.</span>")
 				buildstage = BUILD_NO_WIRES
 				update_appearance()
 				return
 
 			if(W.tool_behaviour == TOOL_WRENCH)
-				to_chat(user, "<span class='notice'>You detach \the [src] from the wall.</span>")
+				to_chat(user, "<span class='notice'>Вы отсоединяете \the [src] со стены.</span>")
 				W.play_tool_sound(src)
 				new /obj/item/wallframe/advanced_airlock_controller(user.loc)
 				qdel(src)
@@ -816,7 +816,7 @@
 	if(obj_flags & EMAGGED)
 		return
 	obj_flags |= EMAGGED
-	visible_message("<span class='warning'>Sparks fly out of [src]!</span>", "<span class='notice'>You emag [src], disabling its safeties.</span>")
+	visible_message("<span class='warning'>Искры вылетают из [src]!</span>", "<span class='notice'>Вы емаегете [src], отключение его средств защиты.</span>")
 	playsound(src, "sparks", 50, 1)
 
 /obj/machinery/advanced_airlock_controller/obj_break(damage_flag)
