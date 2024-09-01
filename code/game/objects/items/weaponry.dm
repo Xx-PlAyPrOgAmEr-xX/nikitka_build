@@ -597,6 +597,27 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		playsound(turf, 'sound/weapons/effects/batreflect2.ogg', 50, TRUE)
 	return 1
 
+/obj/item/melee/baseball_bat/russkokitayskiyslovar
+	name = "Русско китайский словарь"
+	desc = "БЛЯТЬ!"
+	icon = 'icons/obj/items_and_weapons.dmi'
+	icon_state = "russkokitayskiyslovar"
+	item_state = "russkokitayskiyslovar"
+	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
+	force = 50
+	throwforce = 69
+	attack_verb = list("ебанул", "хуйнул")
+	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT * 3.5)
+	w_class = WEIGHT_CLASS_HUGE
+
+/obj/item/melee/baseball_bat/russkokitayskiyslovar/attack(mob/living/target, mob/living/user)
+	. = ..()
+	playsound(get_turf(src), 'sound/weapons/russkokitayskiyslovar.ogg', 100, TRUE)
+
+
+
+
 /obj/item/melee/flyswatter
 	name = "flyswatter"
 	desc = "Useful for killing insects of all sizes."
