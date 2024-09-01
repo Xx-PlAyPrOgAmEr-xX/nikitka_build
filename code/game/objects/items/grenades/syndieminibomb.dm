@@ -14,6 +14,23 @@
 	update_mob()
 	resolve()
 
+/obj/item/grenade/beerkeg
+	desc = "Осторожно, взрывоопасно"
+	name = "Пивная кега."
+	icon = 'icons/obj/grenade.dmi'
+	icon_state = "beerkeg"
+	item_state = "flashbang"
+	ex_dev = 2
+	ex_heavy = 3
+	ex_light = 7
+	ex_flame = 2
+
+/obj/item/grenade/beerkeg/prime()
+	playsound(get_turf(src), 'sound/items/beerkeg.ogg', 100, TRUE)
+	. = ..()
+	update_mob()
+	resolve()
+
 /obj/item/grenade/syndieminibomb/concussion
 	name = "HE Grenade"
 	desc = "A compact shrapnel grenade meant to devastate nearby organisms and cause some damage in the process. Pull pin and throw opposite direction."
