@@ -118,7 +118,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 /datum/material/bluespace
 	name = "Блюспейс кристалл"
 	id = "bluespace_crystal"
-	desc = "Кристаллы со свойствами голубого пространства"
+	desc = "Кристаллы со свойствами блюспейс пространства"
 	color = "#4086e2"
 	alpha = 200
 	categories = list(MAT_CATEGORY_ORE = TRUE)
